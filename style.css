@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+
+body {
+  height: auto;
+  margin: 0;
+  background-image: radial-gradient(
+    circle,
+    rgb(197, 199, 243),
+    rgb(29, 142, 235)
+  );
+  color: #000000;
+  font-family: "Gowun Dodum", sans-serif;
+  font-size: 22px;
+}
+
+.weather {
+  padding: 5px 0;
+  margin: 0 auto;
+}
+
+.weather_search {
+  width: 100%;
+  padding: 10px 30px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  font-size: 22px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+input::placeholder {
+  color: #000000
+}
+
+.weather_img{
+  text-align: center;
+}
+
+.weather_image {
+  width: 210px;
+  align-self: center;
+}
+
+.weather_city {
+  color: #000000;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.weather_day {
+  color: #000000;
+  font-size: 30px;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.weather_indicator::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.weather_indicator{
+  font-size: 22px;
+  color: #000000;
+}
+
+.weather_indicator--humidity::before {
+  background-image: url(./images/humidity.png);
+}
+
+.weather_indicator--wind::before {
+  background-image: url(./images/wind.png);
+}
+
+.weather_indicator--pressure::before {
+  background-image: url(./images/pressure.png);
+}
+
+.weather_temperature {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.card{
+  height: 310px;
+  text-align: center;
+  border-radius: 2em;
+  padding-top: 30px; 
+  color: #000000; 
+}
+
+.card-text{
+  margin-top: 30px;
+}
+
+.weather_forecast_icon{
+  max-width: 50%;
+  margin-left: 55px;
+}
+
+.weather_forecast_item{
+  text-align: center;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
